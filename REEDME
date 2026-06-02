@@ -1,0 +1,16 @@
+# Football API
+
+API REST construida para el desafío de ProyectoXAcademy. Permite consultar estadísticas de jugadores de FIFA.
+
+## Requisitos
+- Node.js
+- MariaDB
+
+## Instalación
+1. Clonar el repositorio.
+2. Instalar dependencias: `npm install`
+3. Crear un archivo `.env` basado en `.env.example`.
+4. Ejecutar: `node src/app.js`
+
+## Endpoints
+- `GET /api/players` : Devuelve la lista de jugadores.
